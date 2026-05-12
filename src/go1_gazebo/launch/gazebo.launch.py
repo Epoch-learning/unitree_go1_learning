@@ -79,5 +79,5 @@ def generate_launch_description():
         bridge,
         
         # 暂时先不加载控制器，等模型能成功掉进世界里再打开下面这行
-        # launch_ros2_control 
+        launch_ros2_control 
     ])

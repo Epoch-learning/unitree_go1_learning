@@ -182,7 +182,7 @@
         </inertial>
     </link>
 
-    <gazebo reference="laser_link">
+    <!-- <gazebo reference="laser_link">
         <sensor type="ray" name="lidar">
         <pose>0 0 0 0 0 0</pose>
         <visualize>false</visualize>
@@ -215,16 +215,16 @@
             <frame_name>laser_link</frame_name>
         </plugin>
         </sensor>
-    </gazebo>
+    </gazebo> -->
 
-    <gazebo>
+    <!-- <gazebo>
         <plugin name="p3d_ground_truth" filename="libgazebo_ros_p3d.so">
-            <!-- <robotNamespace>${g_robot_name}</robotNamespace> -->
+            <robotNamespace>${g_robot_name}</robotNamespace>
             <body_name>base_link</body_name>
             <topic_name>odom</topic_name>
             <frame_name>odom</frame_name>
             <update_rate>100</update_rate>
         </plugin>
-    </gazebo>
+    </gazebo> -->
 
 </robot>

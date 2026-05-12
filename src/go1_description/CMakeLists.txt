@@ -25,7 +25,7 @@ endif()
 
 # 将模型和配置文件安装到工作区的share目录下
 install(
-  DIRECTORY meshes urdf xacro launch rviz
+  DIRECTORY meshes urdf xacro launch rviz config
   DESTINATION share/${PROJECT_NAME}
 )
 
