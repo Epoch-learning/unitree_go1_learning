@@ -8,6 +8,7 @@
 
         <joint name="FR_hip_joint">
             <command_interface name="effort">
+            
                 <param name="min">${hip_torque_min}</param>
                 <param name="max">${hip_torque_max}</param>
             </command_interface>
